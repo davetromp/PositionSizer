@@ -1,10 +1,10 @@
 //+------------------------------------------------------------------+
 //|                                               Position Sizer.mq5 |
-//|                                  Copyright © 2022, EarnForex.com |
-//|                                       https://www.earnforex.com/ |
+//|                                  Copyright © 2023, DaveTromp.com |
+//|                                       https://www.davetromp.com/ |
 //+------------------------------------------------------------------+
-#property copyright "EarnForex.com"
-#property link      "https://www.earnforex.com/metatrader-expert-advisors/Position-Sizer/"
+#property copyright "DaveTromp.com"
+#property link      "https://www.davetromp.com/Position-Sizer/"
 #property version   "3.02"
 string    Version = "3.02";
 
@@ -36,14 +36,14 @@ input bool ShowMaxPSButton = false; // ShowMaxPSButton: Show Max Position Size b
 input bool StartPanelMinimized = false; // StartPanelMinimized: Start the panel minimized?
 input bool ShowATROptions = false; // ShowATROptions: If true, SL and TP can be set via ATR.
 input group "Fonts"
-input color sl_label_font_color = clrLime; // SL Label Color
-input color tp_label_font_color = clrYellow; // TP Label Color
+input color sl_label_font_color = clrRed; // SL Label Color
+input color tp_label_font_color = clrGreen; // TP Label Color
 input uint font_size = 13; // Labels Font Size
 input string font_face = "Courier"; // Labels Font Face
 input group "Lines"
 input color entry_line_color = clrBlue; // Entry Line Color
-input color stoploss_line_color = clrLime; // Stop-Loss Line Color
-input color takeprofit_line_color = clrYellow; // Take-Profit Line Color
+input color stoploss_line_color = clrRed; // Stop-Loss Line Color
+input color takeprofit_line_color = clrGreen; // Take-Profit Line Color
 input color stopprice_line_color = clrPurple; // Stop Price Line Color
 input ENUM_LINE_STYLE entry_line_style = STYLE_SOLID; // Entry Line Style
 input ENUM_LINE_STYLE stoploss_line_style = STYLE_SOLID; // Stop-Loss Line Style

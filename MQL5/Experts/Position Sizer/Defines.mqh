@@ -1,7 +1,7 @@
 //+------------------------------------------------------------------+
 //|                                                      Defines.mqh |
-//|                                  Copyright © 2022, EarnForex.com |
-//|                                       https://www.earnforex.com/ |
+//|                                  Copyright © 2023, DaveTromp.com |
+//|                                       https://www.davetromp.com/ |
 //+------------------------------------------------------------------+
 #include <Controls\Button.mqh>
 #include <Controls\Dialog.mqh>

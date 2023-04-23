@@ -1,7 +1,7 @@
 //+------------------------------------------------------------------+
 //|                                               Position Sizer.mqh |
-//|                                  Copyright © 2022, EarnForex.com |
-//|                                       https://www.earnforex.com/ |
+//|                                  Copyright © 2023, DaveTromp.com |
+//|                                       https://www.davetromp.com/ |
 //+------------------------------------------------------------------+
 #include "Defines.mqh"
 
@@ -606,8 +606,8 @@ bool CPositionSizeCalculator::CreateObjects()
 
     y += element_height + v_spacing;
 
-    // EarnForex URL
-    if (!LabelCreate(m_LblURL, first_column_start, y, first_column_start + normal_label_width, y + element_height, "m_LblURL", "www.earnforex.com"))                                         return false;
+    // DaveTromp URL
+    if (!LabelCreate(m_LblURL, first_column_start, y, first_column_start + normal_label_width, y + element_height, "m_LblURL", "www.davetromp.com"))                                         return false;
     m_LblURL.FontSize(8);
     m_LblURL.Color(C'0,115,66'); // Green
 
